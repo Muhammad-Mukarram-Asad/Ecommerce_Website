@@ -1,0 +1,36 @@
+.item_main_div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.item_main_div > img{
+    width: 320px;
+    height: 350px;
+}
+.item_main_div:hover{
+    transform: scale(1.1);
+    transform: 6s;
+}
+.item_main_div > p{
+    margin: 6px 0;
+    text-align: center;
+}
+
+.item_price{
+    display: flex;
+    gap: 10px;
+    margin-left: 10%;
+}
+
+.item_price_new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item_price_old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: line-through;
+}

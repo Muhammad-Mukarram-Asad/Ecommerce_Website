@@ -1,0 +1,131 @@
+.cartItems {
+  margin: 20px;
+}
+
+.cartItems > hr {
+  height: 3px;
+  background-color: #e2e2e2;
+  border: 0;
+}
+
+.cartItems_format_main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 0.5fr 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+  padding: 20px 0;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cartItems_format {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.prod_icon {
+  height: 100px;
+  width: 100px;
+  margin-left: 20%;
+}
+
+.remove_icon {
+  width: 15px;
+  margin: 0 70px;
+  cursor: pointer;
+}
+
+.cartItems_quantity {
+  width: 64px;
+  height: 50px;
+  border: 2px solid #ebebeb;
+  background-color: #fff;
+}
+
+.cartItems_down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  /* border: 1px solid red; */
+}
+
+.cartItems_total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.cartItems_total_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  width: 50%;
+  height: 2%;
+}
+
+.cartItems_total > button {
+  width: 250px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #ff5d5d;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cartItems_promoCode {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 50%;
+  height: auto;
+  gap: 20px;
+}
+
+.cartItems_promoCode > p {
+  color: #555;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cartItems_promobox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  background-color: #eaeaea;
+}
+
+.cartItems_promobox > input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  text-indent: 5px;
+}
+
+.cartItems_promobox > button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}

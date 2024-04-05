@@ -1,0 +1,90 @@
+.hero_main_div {
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  display: flex;
+}
+
+.hero_left_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex: 1;
+  line-height: 1.1;
+  /* gap: 20px; */
+  /* line-height: 0.9px; */
+  /* padding-left: 180px; */
+}
+.hero_left_div > h2 {
+  color: #090909;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.hero_left_inner_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    line-height: 1.1;
+    padding-left: 65%;
+}
+
+.hero_left_inner_div > p
+ {
+  font-weight: 700;
+  font-size: 60px;
+  color: #171717;
+}
+
+.hand_icon_div {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  gap: 20px;
+  /* margin-left: -20px; */
+}
+
+.hand_icon_div > p{
+    font-weight: 700;
+    font-size: 60px;
+    color: #171717;
+}
+
+.hand_icon_div > img {
+  width: 80px;
+  height: 80px;
+}
+
+.hero_latest_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 58px;
+  gap: 15px;
+  border-radius: 75px;
+  background-color: #ff4141;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hero_right_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.hero_right_div > img{
+    width: 70%;
+    height: auto;
+}

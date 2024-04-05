@@ -1,0 +1,35 @@
+.description_box {
+  margin: 120px 80px;
+}
+
+.description_box_navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.description_nav_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: 170px;
+  height: 70px;
+  border: 1px solid #d0d0d0;
+}
+
+.description_nav_box_fade {
+  color: #555;
+  background-color: #fbfbfb;
+}
+
+.description_box_description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid #d0d0d0;
+  padding: 48px;
+  padding-bottom: 70px;
+}
