@@ -1,6 +1,7 @@
 
 # The Deployed Link is as follows: 
 https://webapp-ecommerce.netlify.app/
+Soon this project will be converted into MERN Stack project.
 
 ## Available Scripts
 
