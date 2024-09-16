@@ -1,7 +1,8 @@
-
 # The Deployed Link is as follows: 
-https://webapp-ecommerce.netlify.app/
-Soon this project will be converted into MERN Stack project.
+https://webapp-ecommerce.netlify.app/  
+
+Soon this project will be converted  
+into MERN Stack project.
 
 ## Available Scripts
 
@@ -68,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here:
